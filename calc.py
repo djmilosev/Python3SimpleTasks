@@ -11,7 +11,7 @@ def subtraction(x,y):
 def multiplication(x,y):
 	return x * y
 
-def division(x,y):
+def deljenje(x,y):
 	return x / y
 
 ### print
