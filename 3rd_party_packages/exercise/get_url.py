@@ -28,6 +28,7 @@ if args.content_type == 'json':
         print("Error: Content is not JSON")
         sys.exit(1)
 else:
+    # using text module to get the HTML.
     content = res.text
 
 with open(args.filename, 'w', encoding='UTF-8') as f:
