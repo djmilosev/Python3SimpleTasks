@@ -2,7 +2,7 @@ import pytest
 
 from pgbackup import cli
 
-url = "postgres://djordje@example.com:5432/db_example"
+url = "postgres://postgres:windows732bit@34.245.13.170:80/sample"
 
 # use pytest.fixture decorator
 @pytest.fixture
