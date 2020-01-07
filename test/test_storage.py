@@ -19,11 +19,11 @@ def test_storing_file_on_s3(mocker, infile):
     client = mocker.Mock()
 
     storage.s3(client,
-            infile,
-            "bucket",
-            "file-name")
+        infile,
+        "bucket",
+        "file-name")
 
     client.upload_fileobj.assert_called_with(
-            infile,
-            "bucket",
-            "file-name")
+        infile,
+        "bucket",
+        "file-name")
