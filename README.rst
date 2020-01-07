@@ -1,4 +1,4 @@
-pgbackup
+pgbackup :snake:
 ========
 
 CLI for backup remote PostgreSQL database either locally or to S3.
